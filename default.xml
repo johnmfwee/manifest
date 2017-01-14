@@ -64,7 +64,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="twisted" revision="n7.1.1" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="twisted" revision="n7.1.1" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="twisted" revision="n7.1.1" />
-  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="twisted" revision="n7.1.1" />
+  <project path="prebuilts/build-tools" name="Flash-ROM/prebuilts_build-tools" remote="github" revision="n7.1.1" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="twisted" revision="n7.1.1" />
   <project path="system/core" name="system_core" remote="twisted" revision="n7.1.1" />
   <project path="system/netd" name="system_netd" remote="twisted" revision="n7.1.1" />
@@ -78,7 +78,7 @@
 
     <!--Device Sources-->
   <project path="kernel/moto/shamu" name="twisted_kernel_shamu" remote="twisted" revision="n7.1.1-testing" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github"  revision="nougat-caf" />
 
   <!-- Proprietary Vendors -->
@@ -490,7 +490,8 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" />
+  <!--project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" /-->
+  <project path="prebuilts/ninja/linux-x86" name="Flash-ROM/prebuilts_ninja" remote="github" revision="n7.1.1" />  
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
